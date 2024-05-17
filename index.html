@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fuente de texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&family=Teko:wght@300..700&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <!-- End Fuente de texto -->
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/c82c5bef31.js" crossorigin="anonymous"></script>
+    <!-- End Icons -->
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-container">
+                <span class="project-name">
+                    <h1>Tres En Raya</h1>
+                </span>
+                <button class="rules">Como jugar?</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="main-container">
+            <div class="game-container">
+                <div class="text-player">
+                    <span class="player-1">Es el turno del jugador 1</span>
+                    <span class="player-2">Es el turno del jugador 2</span>
+                </div>
+                <div class="inferior-game-container">
+                    <div class="board-container">
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                        <button class="box-btn"></button>
+                    </div>
+                
+                    <div class="finish-modal">
+                        <button class="finish">RESETEAR</button>
+                    </div>
+
+                </div>
+               
+            </div>
+            
+        </section>
+    
+    <div class="modal-container">
+        <div class="rules-container">
+            <div class="name-rules">
+                <h2>Tres En Raya Reglas</h2>
+            </div>
+            <div class="text-container">
+                <p> ▶ El juego se juega en un tablero de 3x3.</p>
+                <p> ▶ Dos jugadores participan, uno usa "X" y el otro "O".</p>
+                <p> ▶ El jugador que logre colocar tres de sus símbolos en línea horizontal, vertical o diagonal gana.</p>
+                <p> ▶ Si todas las casillas se llenan y ningún jugador ha logrado colocar tres símbolos en línea, el juego termina en empate.</p>
+                <button class="close"> <i class="fa-solid fa-x"></i> </button>
+            </div>
+
+            <div class="modal-inferior-container">
+                <div class="text-cont">
+                    <span class="images-text">Formas de ganar</span>
+                </div>
+                <div class="image-container">
+                    <img src="Images/Win-1.jpg" alt="">
+                    <img src="Images/Win-2.jpg" alt="">
+                    <img src="Images/win-3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    
+    </main>
+
+
+    <footer>
+        <div class="footer-container">
+            <span class="copy-text">Juego creado por lucas gabriel abalos, desarrolador frontEnd</span>
+        </div>
+    </footer>
+    
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
